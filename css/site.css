@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:500);
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+::-webkit-scrollbar{
+  //display: none;
+}
+
+span {
+  display: none;
+}
+
+noscript {
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  -webkit-animation-duration: 5s;
+}
+
+br {
+  line-height: 350%;
+}
+
+.jumbotron h1 {
+  margin-top: 25vh;
+  color: #ecf0f1;
+}
+
+.jumbotron, .about-me {
+  min-height: 100vh;
+}
+
+.jumbotron, .about-me, .contact-panel {
+  width: 100%
+}
+
+.jumbotron {
+  background-color: #3498db;
+  margin: auto;
+}
+
+.about-me {
+  background-color: #34495e;
+}
+
+.contact-panel {
+  min-height: 50vh;
+  background-color: #95a5a6;
+}
+
+.fa-angle-down {
+  position: relative;
+  font-size: 50px;
+  color: white;
+  padding: 100px;
+  margin-top: 100px;
+  text-align: center;
+  width: 100%;
+  animation-delay: 4s;
+}
